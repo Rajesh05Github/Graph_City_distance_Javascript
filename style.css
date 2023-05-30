@@ -1,0 +1,59 @@
+html,body {
+    height: 100%;
+}
+
+#mynetwork {
+    width: 50%;
+    height: 100%;
+    border: 10px solid rgb(243, 12, 12);
+    border-radius: 25px;
+    border-bottom: coral;
+    background-image: linear-gradient(to bottom,rgb(167, 224, 220),rgb(241, 234, 234));
+}
+
+#container2 {
+    width: 50%;
+    height: 100%;
+    border: 10px solid rgb(239, 7, 7);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 25px;
+    border-bottom: coral;
+    background-image: linear-gradient(to top,rgb(171, 233, 229),rgb(241, 234, 234));
+}
+
+#mynetwork2{
+    width: 100%;
+    height: 100%;
+}
+.navbar
+{
+    font-size: 25px; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    background-image:linear-gradient(to bottom,rgb(195, 242, 195),rgb(233, 229, 229));
+    font-weight : 3em;
+    color: rgb(243, 10, 10);
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(184, 243, 176);
+    display: flex;
+    margin: 0 auto;
+}
+
+#generate-graph{
+    margin:auto;
+    display:block;
+}
+#generate-graph:hover{
+    background-color: rgb(255, 145, 0);
+}
+
+
+#solve{
+    margin:auto;
+    display:block;
+}
